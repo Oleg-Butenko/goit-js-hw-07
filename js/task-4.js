@@ -12,7 +12,7 @@ form.addEventListener("submit", event => {
             password: elements.password.value.trim()
         }
         console.log(info);
-        form.reset();
+        event.target.reset();
     }
     
 })
